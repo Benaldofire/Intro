@@ -402,6 +402,7 @@ hence wrapping all the cart-row isolates it from the last div in the parent <sec
     font-size: 1.75em;
 }
 /*
+uncomment if using flex grid
 @media (max-width: 700px) {
     #store-container{
         max-width:900px;
@@ -411,4 +412,5 @@ hence wrapping all the cart-row isolates it from the last div in the parent <sec
         margin: 0 auto;
     }
   }
+  
   */
