@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    <header class="main-header"> <!-- telling browser this is our header element-->
+        <nav class = "nav main-nav"> <!-- tells browser this is our nav element in the header-->
+            <ul> <!-- unordered list-->
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="store.html">STORE </a></li>
+                <li> <a href="about.html">ABOUT </a></li>
+            </ul>
+        </nav>
+
+        <h1 class="band-name band-name-large"> Linkin Park </h1>
+
+        <!--place button inside div container which already has max-width set
+        it will keep the button in one place when it's moved
+        -->
+        <div class="container"> 
+            <button type = "button" class= "btn btn-header" > Get Our Latest Album</button>
+            
+        </div>
+
+        <div id="spotify-container"> 
+            <!--<button class = "btn btn btn-header btn-play" type = "button" onclick="spotifyFrame()">&#9658</button> -->
+            <div>
+                <iframe id="spotify" src="https://open.spotify.com/embed/artist/6XyY86QOPPrYVGvF9ch6wz" width="300" 
+                height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            
+        </div>
+        
+        
+        
+    </header>
+    <section class = "content-section container">
+        <h2 class="section-header">TOURS</h2>
+        <div> <!--Overall wrapper for all dates-->
+            <div class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">JULY 16</span> <!-- denotes importance-->
+            
+                <span class ="tour-item tour-city">DETROIT, MI</span>
+            
+                <span class="tour-item tour-arena">DTE ENERGY MUSIC THEATRE</span>
+            
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+
+            </div>
+
+            <div  class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">JULY 19</span> <!-- denotes importance-->
+                
+                <span class ="tour-item tour-city">TORONTO, ON</span>
+                
+                <span class="tour-item tour-arena">BUDWEISER STAGE</span>
+                
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+                        
+            </div>
+
+            <div class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">JULY 22</span> <!-- denotes importance-->
+                
+                <span class ="tour-item tour-city">BRISTOW, VA</span>
+                
+                <span class="tour-item tour-arena">JIGGY LUBE LIVE</span>
+                
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+                           
+            </div>
+
+            <div class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">JULY 29 </span> <!-- denotes importance-->
+                
+                <span class ="tour-item tour-city">PHEONIX, AZ</span>
+                
+                <span class="tour-item tour-arena">AK-CHIN PAVILION</span>
+                
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+            </div>
+
+            <div class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">AUG 2 </span> <!-- denotes importance-->
+                
+                <span class ="tour-item tour-city">LAS VEGAS, NV</span>
+                
+                <span class="tour-item tour-arena">T-MOBILE ARENA</span>
+                
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+            </div>
+
+            <div class="tour-row"> <!--individual element's div per date-->
+                <span class="tour-item tour-date">AUG 7 </span> <!-- denotes importance-->
+                
+                <span class ="tour-item tour-city">CONCORD, CA</span>
+                
+                <span class="tour-item tour-arena">CONCORD PAVILION</span>
+                
+                <button class = "btn tour-item tour-btn btn-primary" type = "button"> BUY TICKETS </button>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer class="main-footer">
+        <div class= "container main-footer-container">
+            <h3 class="band-name"> Linkin Park</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href ="https://youtube.com" target="_blank">
+                        <img class ="logo" src="img/youtube.png" alt="Youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://facebook.com" target="_blank">
+                        <img class="logo" src="img/Facebook-logo.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://spotify.com" target="_blank">
+                        <img class="logo" src="img/spotify.png" alt="Spotify">
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

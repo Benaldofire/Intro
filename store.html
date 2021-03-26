@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park | About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header"> <!-- telling browser this is our header element-->
+        <nav class = "nav main-nav"> <!-- tells browser this is our nav element in the header-->
+            <ul> <!-- unordered list-->
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="store.html">STORE </a></li>
+                <li> <a href="about.html">ABOUT </a></li>
+            </ul>
+        </nav>
+        
+        <h1 class="band-name band-name-large"> Linkin Park </h1>
+    </header>
+
+    <h2 class="music-header">MUSIC</h2>
+    <section id="store-container">
+        
+        <div  class="album"> <!--wrap each album in a div-->
+            <div class="item-name">Album 1</div> <!--want each title on one line-->
+            <img class = "album-img" src="/img/Hybrid_Theory_Album_Cover.jpg">
+            <div>
+                <span class = "price" >$12.99</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="album">
+            <div class="item-name">Album 2</div>
+            <img class = "album-img" src="/img/Linkin_Park,_One_More_Light,_album_art_final.jpeg">
+            <div>
+                <span class = "price" >$12.99</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="album">
+            <div class="item-name">Album 3</div>
+            <img class = "album-img" src="/img/Linkin_Park_-_Living_Things.jpg" width= 316px>
+            <div class>
+                <span class = "price" >$12.99</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="album">
+            <div class="item-name">Album 4</div>
+            <img class = "album-img" src="/img/Linkin_Park_Meteora_Album_Cover.jpg">
+            <div>
+                <span class = "price" >$12.99</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <h2 class="merch-header">MERCH</h2>
+    <section id="store-container">
+        <div class="merch">
+            <div class="item-name">Minutes To Midnight Pullover Hoodie</div>
+            <img class = "merch-img" src="/img/Hoody Merch.png">
+            <div>
+                <span class = "price">$60.00</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="merch">
+            <div class="item-name">Skate Deck</div>
+            <img class = "merch-img" src="/img/Skate deck.png">
+            <div>
+                <span class = "price">$100.00</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="merch">
+            <div class="item-name">Honeycomb Street Soldier Mask</div>
+            <img class = "merch-img" src="/img/Honeycomb Street Soldier Mask.png" alt ="Honeycomb Street Soldier Mask">
+            <div>
+                <span class = "price">$10.00</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="merch">
+            <div class="item-name">Mug</div>
+            <img class = "merch-img" src="/img/LPUMUG2A_grande_cropped.png">
+            <div>
+                <span class = "price">$20.00</span>
+                <button class = "btn btn-primary" type = "button">ADD TO CART</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <h2 class="section-header cart-enl">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column"> ITEM</span>
+            <span class="cart-price cart-header cart-column"> PRICE</span>
+            <span class="cart-quantity cart-header cart-column"> QUANTITY</span>
+        </div>
+
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src = "img/Hoody Merch.png">
+                    <span class="cart-item-title"> Hoodie </span>
+                </div>
+                
+                <span class="cart-price cart-column"> $60 </span>
+    
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type = "number" value="1" min="0">
+                    <button class="btn btn-danger cart-quantity-button" type = " button"> REMOVE </button>
+                </div>
+                
+            </div>
+    
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src = "img/Skate deck.png">
+                    <span class="cart-item-title"> Skate Deck </span>
+                </div>
+                
+                <span class="cart-price cart-column"> $100 </span>
+    
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type = "number" value="1" min="0">
+                    <button class="btn btn-danger cart-quantity-button" type = " button"> REMOVE </button>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="cart-total">
+            <span class="cart-total-title"> Total </span>
+            <span class="cart-total-price"> $160 </span>
+        </div>
+        
+        <button class = "btn btn-primary btn-purchase" role="button">Purchase</button>
+    </section>
+
+    <footer class="main-footer">
+        <div class= "container main-footer-container">
+            <h3 class="band-name"> Linkin Park</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href ="https://youtube.com" target="_blank">
+                        <img class ="logo" src="img/youtube.png" alt="Youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://facebook.com" target="_blank">
+                        <img class="logo" src="img/Facebook-logo.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://spotify.com" target="_blank">
+                        <img class="logo" src="img/spotify.png" alt="Spotify">
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

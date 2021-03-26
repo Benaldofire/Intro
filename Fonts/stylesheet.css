@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Linkin Park';
+    src: url('LinkinPark.woff2') format('woff2'),
+        url('LinkinPark.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
