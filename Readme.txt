@@ -1,4 +1,4 @@
-I uploaded this onto firebase too. 
+I uploaded this onto firebase too. Currently has the old version, post shopping cart implementation(JavaScript DOM).
 https://music-intro.firebaseapp.com/
 
 I want to give credit to: Webdev Simplified, https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
