@@ -1,5 +1,5 @@
-I uploaded this onto firebase too. Currently has the old version, post shopping cart implementation(JavaScript DOM).
-https://music-intro.firebaseapp.com/
+updated website: https://benaldofire.github.io/Music_Band_FanSite/
+
 
 I want to give credit to: Webdev Simplified, https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
 I followed along on his video and made some changes here and there in order to personalize it and add new things to it. Also added some comments on new things I wasn't familiar with. 
