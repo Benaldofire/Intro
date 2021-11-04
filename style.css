@@ -61,6 +61,7 @@
     background-size:cover;
     background-blend-mode: multiply;
     padding: 30px;
+    height: 43vh;
 }
 
 
@@ -78,15 +79,17 @@
 }
 
 
-.content-section{
-    margin: 1em;
-}
-
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
     position: relative;
+}
+
+.content-section{
+    margin: 1em;
+    min-height: 800px;
+    padding: 2em;
 }
 
 /*spotify embeded iframe*/
